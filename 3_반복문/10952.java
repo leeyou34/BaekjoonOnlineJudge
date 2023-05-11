@@ -19,6 +19,15 @@ public class Main {
 			int a =sc.nextInt(); // 정수 a 입력
 			int b =sc.nextInt(); // 정수 b 입력
 			
+			if(0 < a || a < 10) {
+				System.out.println("a must be between 0 ~ 10");
+			}
+			
+			if(0< b || b < 10) {
+				System.out.println("b must be between 0 ~10");
+			}
+			
+			
 			if( a== 0 && b== 0) {
 				break;
 			}
