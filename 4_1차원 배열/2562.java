@@ -45,6 +45,6 @@ public class Main {
 		
 		
 		System.out.println(max);
-		System.out.println(maxIndex);
+		System.out.println(maxIndex+1);
 	}
 }
